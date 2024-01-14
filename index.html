@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Caos News</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+</head>
+<body>
+    <!-----Inicio navbar----->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+          <img src="img/logo.png" alt="Logo noticias" class="logo">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="formulario.html">Contactanos</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-----Fin navbar------->
+
+      <div class="container mt-4">
+      
+        <h2>Noticias Destacadas</h2>
+      
+      </div>
+      <!----Inicio Carrousel---->
+      <div id="carouselExample" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <a href="noticia1.html">
+              <img src="img/cultura.jpg" class="img-cultura" alt="noticia1">
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a href="noticia2.html">
+              <img src="img/Ciencia.jpeg" class="img-ciencia" alt="noticia2">
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a href="noticia3.html">
+              <img src="img/movilidad.jpg" class="img-movilidad" alt="noticia3">
+            </a>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <!-----Fin Carrousel---->
+
+    <!----Inicio cards---->
+    <div class="container mt-4">
+      <div class="row">
+
+          <!-- Noticia 4 -->
+          <div class="col-md-4 col-sm-12 mb-4">
+              <div class="card">
+                  <img src="img/manchester-city.jpg" class="card-img-top" alt="Imagen Manchester City">
+                  <div class="card-body">
+                      <h3 class="card-title">Claudio Echeverri, vendido al City Group por 18 millones de euros</h3>
+                      <p class="card-text">El City Group y River Plate han cerrado un acuerdo definitivo para el traspaso del Diablito Echeverri, según adelanta el diario Olé. El montante de la operación asciende a 18 millones de euros brutos, más otros 9 millones brutos en variables.</p>
+                      <a href="noticia4.html" class="btn btn-primary">Leer Más</a>
+                  </div>
+              </div>
+          </div>
+
+          <!-- Noticia 5 -->
+          <div class="col-md-4 col-sm-12 mb-4">
+              <div class="card">
+                  <img src="img/juegos-olimpicos.jpg" class="card-img-top" alt="Imagen Juegos olimpicos">
+                  <div class="card-body">
+                      <h3 class="card-title">Sin alcohol: esta será la cerveza oficial de los Juegos Olímpicos de París 2024</h3>
+                      <p class="card-text">Anheuser-Busch InBev será el próximo patrocinador oficial de las próximas tres olimpiadas y nombró a una de sus cervezas sin alcohol por “un consumo responsable y moderado en todo el mundo”.</p>
+                      <a href="noticia5.html" class="btn btn-primary">Leer Más</a>
+                  </div>
+              </div>
+          </div>
+
+          <!-- Noticia 6 -->
+          <div class="col-md-4 col-sm-12 mb-4">
+              <div class="card">
+                  <img src="img/donald-trump.jpg" class="card-img-top" alt="Imagen Donald Trump">
+                  <div class="card-body">
+                      <h3 class="card-title">Trump ataca al juez y defiende su inocencia al cierre del caso civil por fraude de Nueva York</h3>
+                      <p class="card-text">Donald Trump ha llegado este jueves al edificio de los juzgados en Manhattan (Nueva York) y ha soltado en la puerta su perorata habitual sobre “caza de brujas”, “interferencia política” y demás lugares.</p>
+                      <a href="noticia6.html" class="btn btn-primary">Leer Más</a>
+                  </div>
+              </div>
+          </div>
+
+          <!-- Noticia 7 -->
+          <div class="col-md-4 col-sm-12 mb-4">
+              <div class="card">
+                  <img src="img/yakuza.jpg" class="card-img-top" alt="Imagen Yakuza">
+                  <div class="card-body">
+                      <h3 class="card-title">Yakuza: la saga triunfa en PC con casi 3 millones de copias vendidas desde 2019</h3>
+                      <p class="card-text">La compañía japonesa celebra el éxito cosechado por la longeva franquicia desde su llegada a PC. Durante los últimos 3 años han aparecido hasta 8 entregas.</p>
+                      <a href="noticia7.html" class="btn btn-primary">Leer Más</a>
+                  </div>
+              </div>
+          </div>
+
+      </div>
+  </div>
+   
+   
+<!------Fin cards------->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>

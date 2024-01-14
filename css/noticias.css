@@ -1,0 +1,30 @@
+
+body {
+    background-image: url('../img/diario.jpg') ;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card {
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    background-color: white; /* Fondo blanco para resaltar la card */
+    padding: 20px;
+    border-radius: 15px; /* Redondea las esquinas de la card */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Agrega una sombra suave */
+}
+
+.img-noticia {
+    border-radius: 10px; /* Ajusta el valor según lo redondeado que quieras los bordes */
+}
+
+.btn-outline-primary{
+    color: #000;
+}
